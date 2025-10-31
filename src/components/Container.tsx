@@ -8,7 +8,7 @@ const Container = () => {
     <SidebarProvider>
       <div className="flex">
         <AppSidebar />
-        <main className="flex-1 p-4">
+        <main className="flex-1 p-4 ">
           <SidebarTrigger />
           <Outlet />
           <Toaster richColors={true}position="top-right" />
